@@ -1,6 +1,5 @@
  #!/bin/bash
 echo "Installing Verus Miner Script..."
-sudo apt update && apt upgrade -y && apt install screen -y && screen -R vrs
 wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
 sudo tar -xf hellminer_cpu_linux.tar.gz && 
 POOL=stratum+tcp://ap.luckpool.net:3956#xnsub
